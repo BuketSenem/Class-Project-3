@@ -1,0 +1,364 @@
+html, body {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(231, 231, 231);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+span{
+    color: #003e80;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* p.second-text span .name-span{
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000000;
+} */
+
+header{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 1.1rem 5rem;
+    border-bottom: solid #003e80 4px;
+}
+
+.brand a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    word-spacing: 0.4rem;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 3rem;
+}
+
+li > a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Questrial', sans-serif;
+}
+
+li::after {
+    content: '';
+    width: 0rem;
+    height: 0.15rem;
+    background-color: #000000;
+    display: block;
+    border-radius: 0.2rem;
+    margin: 0.2rem auto 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover::after {
+    width: 2rem;
+} 
+
+nav.banner{
+    position: relative;
+    width:100%;
+    height: 450px;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.banner .banner-title{
+    text-align: center;
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    right: 25%;
+    color: #003e80;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
+    word-spacing: 0.7rem;
+}
+
+h3{
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+div.feedback{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(216, 216, 216);
+    flex-wrap: wrap;
+}
+
+div.feedback p{
+    display: flex;
+    color: rgb(0, 0, 0);
+    margin: 2rem 2rem;
+    flex-wrap: wrap;
+}
+
+div.feedback section{
+    margin-right: 2rem;
+}
+
+#input{
+    margin-top: 1.5rem;
+}
+
+#entermail{
+    margin-right: 0.1rem;
+    height: 2rem;
+    width: 10rem;  
+    border: solid rgb(231, 231, 231) 1px;
+}
+
+#submit-button{
+    height: 2rem;
+    width: 6rem;
+    background-color: #003e80;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+
+.zone{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+.zone section{
+    justify-content: space-between;
+}
+
+.zone section img{
+    border-radius: 50%;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 1rem;
+    border: 2px solid white ;
+}
+
+.zone section img:hover{
+    border: 2px solid #003e80;
+    width: 100%;
+    height: 260px;
+    transition: ease-in 0.2s;
+}
+
+div.copyright{
+    display: flex;
+    background-color: rgb(216, 216, 216);
+    /* flex-wrap: wrap; */
+    /* position: absolute; */
+    width: 100%;
+    text-align: center;  
+}
+
+div.copyright p{
+    color: rgb(0, 0, 0);
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.about-us{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.1rem 5rem;
+    height: 100vh;
+    margin-left: 5rem;
+}
+
+section.text-1 .first-text{
+    font-size: 1.1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+section.text-1 .second-text{
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif;
+    height: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 70rem;
+}
+
+section.text-1 .third-text{
+    font-size: 1;
+    font-family: 'Raleway', sans-serif;
+    height: 5rem;
+    width: 70rem;
+    background-color: #003e80;
+    color: #ffffff;
+    padding: 1.5rem 1.5rem 5rem 1.5rem;  
+}
+
+#name-span{
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000000;
+}
+
+section.text-2{
+    margin-right: 5rem;
+    background-color: #003e80;
+    color: #ffffff;
+    margin-top: 2rem;
+    height: 15rem;
+    
+}
+
+section.text-2 nav{
+    padding: 2rem;  
+}
+
+section.text-2 nav p{
+    padding: 0.5rem;
+}
+
+section.text-2 p.p-1{
+    font-weight: bold;
+}
+
+
+div.team-img{
+    margin-left: 11rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+p.team-header{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #003e80;
+}
+
+section.team-pics{
+    display: flex;
+    margin-top: 3rem;
+    position: relative;
+    
+}
+
+section.team-pics img{
+    border-radius: 50%;
+    border: solid #ffffff 3px;
+    width:250px;
+    height: auto;
+}
+
+section.team-pics p{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    color: #000000;
+}
+
+section.team-pics img:hover{
+    border: solid #003e80;
+    width: auto;
+    height: 260px;
+    transition: ease-out 0.2s;
+}
+ 
+div.map{
+    margin-top: 5rem;
+    margin-left: 11rem;
+    
+}
+
+div.map iframe{
+    height: 400px;
+    width: 700px;
+}
+
+div.map p{
+    margin-top: 5rem;
+    padding: 2rem;
+    width: 700px;
+    text-align: center;
+    background-color:rgb(196, 196, 196);
+    
+}
+
+div.contact-page{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+div.quote{
+    margin-top: 5rem;
+    margin-right: 11rem;
+    /* text-align: center; */
+    background-color: #003e80;
+    width: 30rem;
+    height: 28rem;
+}
+
+div.quote p{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+div.quote form{
+    padding: 1rem;
+}
+
+div.quote section{
+    padding: 1rem;
+}
+
+div.quote section input{
+    width: 25rem;
+    height: 2rem;
+    background-color:rgb(231, 231, 231) ;
+}
+
+div.quote textarea{
+    width: 25rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-color:rgb(231, 231, 231) ;
+}
+
+div.quote input#send-button{
+    margin-left: 1rem;
+    width: 4rem;
+    height: 2rem;
+    margin-top: 1rem;
+    border: none;
+    background-color:rgb(100, 100, 100) ;
+    color: #ffffff;
+}
