@@ -110,10 +110,10 @@ div.feedback{
 }
 
 div.feedback p{
-    display: flex;
+    /* display: flex; */
     color: rgb(0, 0, 0);
     margin: 2rem 2rem;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 div.feedback section{
@@ -169,7 +169,7 @@ div.feedback section{
 div.copyright{
     display: flex;
     background-color: rgb(216, 216, 216);
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* position: absolute; */
     width: 100%;
     text-align: center;  
@@ -189,6 +189,7 @@ div.about-us{
     padding: 1.1rem 5rem;
     height: 100vh;
     margin-left: 5rem;
+    flex-wrap: wrap;
 }
 
 section.text-1 .first-text{
@@ -263,6 +264,7 @@ section.team-pics{
     display: flex;
     margin-top: 3rem;
     position: relative;
+    flex-wrap: wrap;
     
 }
 
@@ -281,6 +283,7 @@ section.team-pics p{
     font-size: 2rem;
     font-family: 'Raleway', sans-serif;
     color: #000000;
+    flex-wrap: wrap;
 }
 
 section.team-pics img:hover{
@@ -314,6 +317,7 @@ div.contact-page{
     display: flex;
     justify-content: space-between;
     height: 100vh;
+    flex-wrap:wrap ;
 }
 
 div.quote{
